@@ -35,4 +35,8 @@ This project goes beyond simple CORS bypassing. It intelligently **rewrites HTML
 Append the target URL to your worker's query parameter:
 
 ```http
-GET https://your-worker.workers.dev/?url={TARGET_URL}
+GET https://proxy.kemono-server.workers.dev/?url={TARGET_URL}
+```
+```http
+GET https://proxy.kemono-server2.workers.dev/?url={TARGET_URL}
+```
