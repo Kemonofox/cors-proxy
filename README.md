@@ -34,9 +34,11 @@ This project goes beyond simple CORS bypassing. It intelligently **rewrites HTML
 ### Basic Format
 Append the target URL to your worker's query parameter:
 
+Server1 (99.9999% Online)
 ```http
 GET https://proxy.kemono-server.workers.dev/?url={TARGET_URL}
 ```
+Server2 (99.9999% Online)
 ```http
 GET https://proxy.kemono-server2.workers.dev/?url={TARGET_URL}
 ```
