@@ -36,9 +36,9 @@ Append the target URL to your worker's query parameter:
 
 > Server1 (99.9999% Online)
 ```http
-GET https://proxy.kemono-server.workers.dev/?url={TARGET_URL}
+GET https://proxy.kemonofox-server.workers.dev/?url={TARGET_URL}
 ```
 > Server2 (99.9999% Online)
 ```http
-GET https://proxy.kemono-server2.workers.dev/?url={TARGET_URL}
+GET https://proxy.kemonofox-server2.workers.dev/?url={TARGET_URL}
 ```
